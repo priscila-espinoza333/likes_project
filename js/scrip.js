@@ -1,4 +1,5 @@
 var counterVal = 0;
+var co
 
 function incrementClick() {
     updateDisplay(++counterVal);

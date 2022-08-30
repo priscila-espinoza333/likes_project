@@ -16,6 +16,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    
 }
 
 .title{
@@ -23,41 +24,45 @@ header{
 }
 
 .container {
-    border: 1px solid black;
-    width: 200px;
-    display: inline-block;
-
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 .container-izquierdo {
-    display: contents;
-    width: 800px;
-    border-top: 20px;
-    border-bottom: 1px solid black;
+    display: flex;
+    width: 200px;
+    border: 1px solid black;
     align-items: center;
     margin: 20px;
-    padding-left: 20px;
+    padding: 20px;
     flex-direction: column;
 }
 
 .container-derecho1, .container-derecho2, .container-derecho3{
-    display: block;
-    text-decoration: none;
     border: 1px solid black ;
+    width: 500px;
+    margin-top: 15px;
+    margin: ;
+  
+    
 }
-
-.li {
-    text-decoration: none;
+.cont-1, .cont-2, .cont-3 {
+    display: flex;
+    justify-content: space-around;
 }
-
-
+ 
 
 img{
     width: 70px;
     border-radius: 50%;
-
 }
 
-p {
-    text-decoration: underline;
+.btn-likes {
+    background-color: yellow;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    margin: 5px;
 }
+
+
